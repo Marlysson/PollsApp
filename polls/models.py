@@ -15,8 +15,7 @@ class Question(models.Model):
 								choice_text=text)
 
 	def delete(self,*args,**kwargs):
-		print(self.opcoes)
-		print(self.opcoes.all())
+		
 		for opcao in self.opcoes.all():
 			opcao.resetar()
 
