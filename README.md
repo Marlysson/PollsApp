@@ -42,6 +42,6 @@ python manage.py runserver
 - Visualização da questão individual para voto
 ![Questão aberta para votar](assets/opened_question_view.png)
 
-- - Visualização da questão fechada - resultado
+- Visualização da questão fechada - resultado
 ![Questão fechada com resultados](assets/closed_question_view.png)
 
