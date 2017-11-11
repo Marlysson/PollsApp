@@ -1,4 +1,4 @@
-## Para rodar basta
+## Instruções
 
 > Já existe um banco para testes local ( sqlite )
 
@@ -21,3 +21,27 @@ python manage.py migrate
 ```python
 python manage.py runserver
 ```
+
+## Funcionalidades
+
+- Administração de opções ( remoção, adição) tudo via ajax
+- Voto em opção via ajax com tooltip
+- Visualizar resultado somente de questões fachadas
+- Associar opções sem questão associada à questão em uso.
+- Criação de opção via ajax
+
+## Telas
+
+- Listagem inicial
+
+![Listagem das questões por tipo ( abertas e fechadas)](assets/index_listing.png)
+
+- Administração
+![Administração da questão](assets/administration_view.png)
+
+- Visualização da questão individual para voto
+![Questão aberta para votar](assets/opened_question_view.png)
+
+- - Visualização da questão fechada - resultado
+![Questão fechada com resultados](assets/closed_question_view.png)
+
